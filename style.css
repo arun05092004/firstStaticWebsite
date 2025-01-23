@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    color: goldenrod;
+    background-color: black;
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
+    margin-right: 48px;
+    
+}
+a:hover{
+    
+    color: #36454f;
+    padding: 5px;
+    background-color: rgb(127, 128, 128);
+}
+#navbar{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5) ;
+    
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 2px;
+    z-index:5;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(252, 252, 252);
+    
+}
+
+#mainpart{
+    width: 100%;
+    position: relative;
+    margin-left: 120px;
+    margin-bottom:5px;
+    
+}
+#mainword{
+    position: absolute;
+    top: 88%;
+    left: 10%;
+}
+#aboutParts{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:10pc ;
+    margin-top: 40px;
+}
+#aboutPart{
+    width: 50%;
+    height: 120%;
+    font-size:170%;
+    font-weight: 500;
+    padding: 20px;
+    
+    
+}
+#menupart{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;   
+}
+#menulist{
+    width: 80%;
+    height: 150%;
+    padding: 100px;
+    font-weight:500;
+    font-size:200%;
+    margin-left: 8pc;
+}
+#menuimage{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    margin-top: 40px;
+    
+}
+#contact{
+    width: 80%;
+    height: 40%;
+    margin-left: 11pc;
+    padding-bottom: 20px;
+    font-size: 120%;
+    
+}
+input{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;        
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom:1px solid rgb(86, 86, 86) ;
+    margin-left: 11pc;
+}
+button{
+    border: none;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(201, 201, 194);
+}
+button:hover{
+    background-color: rgb(131, 130, 130);
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    font-weight: 400;
+    background-color:rgb(131, 129, 129);
+    text-align: center;
+
+}
